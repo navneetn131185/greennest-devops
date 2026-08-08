@@ -23,7 +23,7 @@ jobs:
             context: front/greennest-frontend-new
             build-args: VITE_API_BASE_URL=/api
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
